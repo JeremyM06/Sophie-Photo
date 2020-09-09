@@ -74,3 +74,23 @@ main p {
 main h3 {
   padding: 18px 0;
 }
+/****************SECTION*PHOTO****************************/
+section {
+  background-color: black;
+}
+.section-flex {
+  display: flex;
+  justify-content: space-around;
+}
+section h4 {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+.photo-size20 {
+  width: 20%;
+  flex: 10%;
+}
+.photo-size50 {
+  width: 48%;
+}
