@@ -10,6 +10,8 @@ nav ul {
 .grm-flex {
   display: flex;
   justify-content: space-around;
+  background-color: white;
+  border-bottom: black 1px solid;
 }
 .flex-left {
   display: flex;
@@ -36,6 +38,9 @@ header li a {
 }
 .logo {
   width: 25%;
+}
+.decal-top {
+  margin-top: 50px;
 }
 .grm-background {
   background-image: url("../assets/photos/top.jpg");
@@ -77,6 +82,11 @@ main p {
   font-family: "Dubai";
   font-weight: 500;
 }
+.grm-sophie {
+  background-image: url(../assets/photos/sophie.jpg);
+  background-size: cover;
+  background-position: center center;
+}
 .signature {
   text-align: right;
 }
@@ -85,6 +95,11 @@ main p {
 }
 main h3 {
   padding: 18px 0;
+}
+@media (max-width: 768px) {
+  .grm-sophie {
+    height: 300px;
+  }
 }
 /****************SECTION*CREATION****************************/
 .a {
@@ -191,4 +206,7 @@ footer p {
   .titre2 {
     font-size: 20px;
   }
+  /*.test {
+    font-size: 1vw;
+  }*/
 }
