@@ -75,7 +75,7 @@ main h3 {
   padding: 18px 0;
 }
 /****************SECTION*PHOTO****************************/
-section {
+.a {
   background-color: black;
 }
 .section-flex {
@@ -85,12 +85,30 @@ section {
 section h4 {
   text-align: center;
   color: white;
+  font-size: 25px;
+  width: 100%;
   padding: 20px 0;
 }
 .photo-size20 {
-  width: 20%;
-  flex: 10%;
+  width: 100%;
+  padding: 20px 0;
 }
 .photo-size50 {
-  width: 48%;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/*******************TABLE TARIFS*******************************/
+table {
+  width: 80%;
+  text-align: center;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+th {
+  padding: 15px 0;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
 }
