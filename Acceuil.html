@@ -29,7 +29,7 @@
               <li><a href="#WIA">Qui suis-je?</a></li>
               <li><a href="#Créations">Mes créations</a></li>
               <li><a href="#Tarifs">Tarifs</a></li>
-              <li><a href="#">Contactez-moi</a></li>
+              <li><a href="#Contact">Contactez-moi</a></li>
             </ul>
           </nav>
         </div>
@@ -45,7 +45,7 @@
     </header>
 
     <main class="container-fluid"> 
-      <!------------------------QUI SUIS JE-------------------------------->   
+      <!------------------------QUI SUIS JE------------------------------------->   
       <div class="row grm-margin">
         <div class="col-md-6">
           <h3 id="WIA">Qui suis-je?</h3>
@@ -83,7 +83,7 @@
           />
         </div>
       </div>
-      <!---------------------------CREATIONS---------------------------------->
+      <!---------------------------CREATIONS------------------------------------>
       <section class="container-fluid grm-margin a">
         <div class="row">
           <div class="col-sm">
@@ -189,9 +189,39 @@
           </div>
           <div class="col-md-2"></div>
         </div>
-      </section>
+      </section>   
     </main>
-    <footer></footer>
+    <footer>      
+      <form class="container a">
+        <div class="row">
+          <div class="col">
+            <h4 id="Contact">Contactez-moi</h4>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name">Prénom</label>
+          <input type="text" class="form-control" id="name" placeholder="Sophie" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="firstName">Nom</label>
+          <input type="text" class="form-control" placeholder="Fonfec" id="firsName" aria-describedby="emailHelp">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Sophie...@gmail.com" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <input type="text" class="form-control" id="message">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">J'accepte que mes données soient utilisées à des fins de prises de contact commerciales.</label>
+        </div>
+        <button class="button" type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

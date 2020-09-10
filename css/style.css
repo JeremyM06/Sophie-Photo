@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .grm-flex {
   display: flex;
   justify-content: space-around;
@@ -127,6 +128,33 @@ th {
 .grm-text-left {
   text-align: left;
   padding-left: 10px;
+}
+/********************FOOTER******************************/
+footer {
+  margin: 40px; 0
+}
+footer h4 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  padding: 20px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  color: white;
+  width: 50vw;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 10%;
 }
 
 @media (max-width: 768px) {
